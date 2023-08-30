@@ -4,7 +4,10 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import PostClassComponenct from './componenct/PostClassComponenct'
 import PostFunctionComponenct from './componenct/PostFunctionComponenct'
-import comment from './componenct/comment'
+import Comment from './componenct/Comment'
+import Stateinclass from './componenct/stateinclass'
+import Stateinfunction from './componenct/Stateinfunction'
+import Card from './componenct/Cardcomponenct'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -21,8 +24,13 @@ function App() {
           message="ตายละ"/>
           <Comment userId="kema:"
           message="ครับ"/>
+
           
+          <Stateinclass />
+          <Stateinfunction/> <p></p>
+          <Card />  
           </PostClassComponenct>
+       
       </>
       
     </>
